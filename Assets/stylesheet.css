@@ -1,6 +1,11 @@
+html{
+    width:100vw;
+}
+
 body{
     background: linear-gradient(to bottom, rgb(100, 100, 100), rgb(33, 33, 33));
     background-attachment: fixed;
+    margin: 0 max(10vw, calc(50vw - 500px));
 }
 
 a, a:hover{
@@ -9,8 +14,9 @@ a, a:hover{
 }
 
 #myhead{
-    color: white;
+    color: black;
     padding: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .transparentCard{
@@ -22,3 +28,27 @@ a, a:hover{
     background-color: rgb(150, 150, 150);
     margin: 0.5%;
 }
+
+iframe{
+    display: block;
+    margin: 2vh 2vw;
+    width: min(76vw, 1000px - 4vw);
+    height: calc(min(76vw, 1000px - 4vw) * 9 / 16);
+}
+
+.p-project{
+    color: rgb(0,0,0);
+    font-size: 18px;
+    font-family: Lato, sans-serif;
+    margin: 0 2vw;
+    line-height: 1.6;
+}
+
+.bgRect{
+    background-color: rgba(255,255,255,0.85);
+    width: min(80vw, calc(1000px));
+    height: 100%;
+    display: inline-block;
+    min-height:100vh;
+}
+
